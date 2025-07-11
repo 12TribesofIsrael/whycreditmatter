@@ -1,0 +1,13 @@
+include:
+  - _config.yml
+  - .nojekyll
+  - "*.js"
+  - "*.css"
+  - "*.html"
+
+plugins: []
+
+sass:
+  style: compressed
+
+exclude: [] 
