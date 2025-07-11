@@ -3,6 +3,8 @@ import { Play, BookOpen, TrendingUp, Cpu, Star, Youtube, Instagram, Mail, Phone,
 
 function App() {
   const [showForm, setShowForm] = useState(false);
+  
+  console.log('App component loaded successfully!');
 
   return (
     <div className="min-h-screen bg-white">
