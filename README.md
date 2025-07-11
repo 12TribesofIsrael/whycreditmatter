@@ -1,2 +1,2 @@
 "# AI Bible Gospels Landing Page" 
-For the Culture
+For the Culture test
