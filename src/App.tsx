@@ -3,8 +3,6 @@ import { Play, BookOpen, TrendingUp, Cpu, Star, Youtube, Instagram, Mail, Phone,
 
 function App() {
   const [showForm, setShowForm] = useState(false);
-  
-  console.log('App component loaded successfully!');
 
   return (
     <div className="min-h-screen bg-white">
@@ -14,7 +12,7 @@ function App() {
           {/* Logo */}
           <div className="mb-12">
             <img 
-              src="/public/MasterLogo.png" 
+              src="/MasterLogo.png" 
               alt="Prosperity Path AI" 
               className="h-24 mx-auto mb-4"
               onError={(e) => {
